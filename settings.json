@@ -1,0 +1,31 @@
+{
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "editor.fontSize": 15,
+    "files.autoSave": "afterDelay",
+    "workbench.welcomePage.hiddenCategories": [
+        "Setup",
+        "Beginner"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.exe": "default"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotVerifyTags": true
+}
