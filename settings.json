@@ -1,19 +1,46 @@
 {
+    "files.autoSave": "afterDelay", 
     "editor.wordWrap": "on",
     "diffEditor.wordWrap": "on",
-    "editor.fontSize": 15,
-    "files.autoSave": "afterDelay",
-    "workbench.welcomePage.hiddenCategories": [
-        "Setup",
-        "Beginner"
-    ],
-    "liveServer.settings.donotShowInfoMsg": true,
-    "window.autoDetectColorScheme": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.parameterHints.enabled": true,
+    "editor.fontFamily": "roboto",
+    "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": true,
+    "typescript.tsserver.log": "off",
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme", //or symbols
+    "workbench.colorTheme": "Dracula",
     "workbench.editorAssociations": {
         "*.exe": "default"
     },
-    "editor.suggestSelection": "first",
+
+    "files.associations": {
+      ".env.*": "dotenv",
+      ".prettierrc": "json",
+      "*.css": "css"
+    },
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.autoDetectColorScheme": true,
+
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Roboto",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
         "**/.classpath": true,
@@ -21,11 +48,33 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
+
+    "liveServer.settings.donotVerifyTags": true,
+    "symbols.hidesExplorerArrows": false,
+    
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "liveServer.settings.donotVerifyTags": true
-}
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+     }
+    }
