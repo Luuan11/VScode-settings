@@ -4,7 +4,7 @@
     "diffEditor.wordWrap": "on",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
-    // "editor.rulers": [80, 120],
+    "editor.rulers": [80, 120],
     "editor.suggestSelection": "recentlyUsed",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
@@ -15,8 +15,8 @@
 
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "material-icon-theme", 
-    // "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Dracula",
+    // "workbench.iconTheme": "symbols", uso macbook
+    "workbench.colorTheme": "Dracula Pro",
     "workbench.editorAssociations": {
         "*.exe": "default"
     },
