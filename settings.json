@@ -15,7 +15,7 @@
 
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "material-icon-theme", 
-    // "workbench.iconTheme": "symbols", uso macbook
+    // "workbench.iconTheme": "symbols", utilização em macbooks
     "workbench.colorTheme": "Dracula Pro",
     "workbench.editorAssociations": {
         "*.exe": "default"
